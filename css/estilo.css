@@ -78,11 +78,16 @@ body, html {
 }
 
 .caption span.border {
-    background-color: #111;
+    transition: 0.7s;
+    sbackground-color: #111;
     color: #fff;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+}
+
+.caption span.border:hover {
+    opacity: 0.65;
 }
 
 h3 {
