@@ -3,8 +3,13 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
-}
 
+    
+}
+/* para sacarle la barra de la derecha y que se vea mas como app */
+body::-webkit-scrollbar {
+    display: none;
+}
 .container_secondary_content {
     color: #777;
     background-color: white;
