@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
 
-        console.log("onscroll");
+      //  console.log("onscroll");
 
 
 
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // titulos[0]
 
-            console.log(titulos[0]);
+           // console.log(titulos[0]);
 
         }
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-            console.log("onscroll 2");
+         //   console.log("onscroll 2");
 
         }
 
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-            console.log("onscroll 3");
+         //   console.log("onscroll 3");
 
         }
 
