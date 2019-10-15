@@ -5,87 +5,43 @@ body, html {
     color: #777;
 }
 
-
-
-
 .container_secondary_content {
-
-
     color: #777;
-    background-color:white;
-    text-align:center;
-    padding:50px 80px;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
     text-align: justify;
-
-
 }
 
 .titulo_secondary_content {
-
-
-    text-align:center;
+    text-align: center;
 }
 
-#titulo_third_content {
-
-
-    background-color:transparent;
-    font-size:25px;
-    color: #f7f7f7;
+.posicion_relativa {
+    position: relative;
 }
-
-
-.container_sixth_content {
-
-
-    position:relative;
-
-
-
-
-
-
-}
-
 
 .containerTitle_sixth_content {
-
-
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
     text-align: justify;
-
-
 }
-.container_fifth_content {
 
-
-    background-color:transparent;
-    font-size:25px;
+.transparente {
+    background-color: transparent;
+    font-size: 25px;
     color: #f7f7f7;
 }
 
 .containerTitle_fourth_content {
-
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
     text-align: justify;
-
 }
-
-
-.container_fourth_content {
-
-
-    position:relative;
-}
-
-
-
 
 .background-img1, .background-img2, .background-img3 {
     position: relative;
@@ -97,25 +53,20 @@ body, html {
 }
 
 .background-img1 {
-    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+    background-image: url("../img/bgimg1.jpg");
     min-height: 100%;
 }
 
 .background-img2 {
-    background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+    background-image: url("../img/bgimg2.jpg");
     min-height: 400px;
 }
 
 .background-img3 {
-    background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+    background-image: url("../img/bgimg3.jpg");
     min-height: 400px;
 }
 
-/* .background-transparent {
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7
-} */
 
 .caption {
     position: absolute;
@@ -139,14 +90,6 @@ h3 {
     font: 20px "Lato", sans-serif;
     color: #111;
 }
-
-/* .secondary {
-    color: #777;
-    background-color: white;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify;
-} */
 
 /* Turn off parallax scrolling for tablets and phones */
 
