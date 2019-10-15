@@ -43,7 +43,7 @@ body, html {
     text-align: justify;
 }
 
-.background-img1, .background-img2, .background-img3 {
+.background-img1, .background-img2, .background-img3, .background-img4 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -64,6 +64,10 @@ body, html {
 
 .background-img3 {
     background-image: url("../img/bgimg3.jpg");
+    min-height: 400px;
+}
+.background-img4 {
+    background-image: url("../img/bgimg4.jpg");
     min-height: 400px;
 }
 
@@ -110,7 +114,7 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .background-img-1, .background-img-2, .background-img-3 {
+    .background-img-1, .background-img-2, .background-img-3, .background-img4 {
         background-attachment: scroll;
     }
 }
